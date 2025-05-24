@@ -14,20 +14,21 @@ function List() {
   return (
     <div className="grid grid-cols-3 gap-4">
       {songs.slice(0, 6).map((song, index) => (
-        <div key={index} className="flex items-center p-2 rounded hover:bg-gray-100">
-          <img
-            src={song.image}
-            alt={song.title}
-            className="w-13 h-13 object-cover rounded mr-4"
-          />
-          <div className="flex flex-col">
-            <p className="font-bold">{song.title}</p>
-            <p className="text-base text-gray-500">{song.artist}</p>
+        <div key={index} className="flex items-center justify-between p-2 rounded hover:bg-gray-100">
+          <div className="flex items-center gap-4">
+            <img
+              src={song.image}
+              alt={song.title}
+              className="w-13 h-13 object-cover rounded"/>
+            <div className="flex flex-col">
+              <p className="font-bold">{song.title}</p>
+              <p className="text-base text-gray-500">{song.artist}</p>
+            </div>
           </div>
+          <img src="/icon..png" alt="점 3개" className="w-6 h-6" />
         </div>
       ))}
     </div>
-
   )
 }
 

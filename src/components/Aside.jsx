@@ -8,13 +8,11 @@ function Aside() {
         <div className="flex items-center mb-6">
           <img src="/logo.png" alt="logo" className="w-20 h-6 mr-2" />
         </div>
-        <input
-          type="text"
-          placeholder="검색"
-          className="w-full p-2 border rounded mb-6"
-        />
-
-
+        <div className="flex items-center bg-white rounded-md px-2 py-1 shadow-sm">
+          <img src="/search.png" alt="검색 아이콘" className="w-4 h-4 mr-2" />
+          <input type="text" placeholder="검색" className="flex-1 outline-none bg-transparent text-gray-800"/>
+        </div>
+        <div className="my-4"></div>
         <div className="space-y-2 text-left text-sm">
           <div className="flex items-center space-x-2 p-2 rounded hover:bg-gray-200">
             <img src="/icon1.png" alt="icon1" className="w-4 h-4" />
