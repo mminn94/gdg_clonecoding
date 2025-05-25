@@ -16,9 +16,8 @@ function App() {
       
       {/* 오른쪽 본문 영역 */}
       <main className="flex-1 flex flex-col">
-
-        {/* 상단 플레이어 컨트롤러 영역 (이미지로 대체) */}
-        <header className="h-[60px] border-b border-gray-200 px-6 flex items-center justify-between">
+        {/* 상단 플레이어 컨트롤러 영역*/}
+        <header className="h-[60px] border-b bg-white border-gray-200 px-6 flex items-center justify-between">
           <img src="/banner.png" alt="상위배너" className="w-260 h-14" />
           <Button />
         </header>
