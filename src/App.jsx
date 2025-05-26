@@ -1,4 +1,3 @@
-// src/App.jsx
 import React from 'react'
 import Aside from './components/Aside'
 import Img from './components/Img'
@@ -22,16 +21,16 @@ function App() {
           <Button />
         </header>
         {/* 메인 콘텐츠 영역 */}
-        <section className="p-8 flex-1 overflow-y-auto bg-white">
+        <section className="p-6 flex-1 overflow-y-auto bg-white">
 
           {/* 제목 */}
-          <h2 className="text-4xl font-black mb-6">새로운 음악</h2>
+          <h2 className="text-4xl font-black mb-4">새로운 음악</h2>
           <hr className='my-2 border-gray-200'/>
-          {/* 대표 카드형 앨범 2개 (이미지로 구성) */}
+          {/* 대표 카드형 앨범 2개 */}
           <Img />
 
           {/* 최신곡 리스트 */}
-          <h2 className="text-xl font-semibold mb-4 mt-8">최신곡</h2>
+          <h2 className="text-[17px] font-semibold mb-2 mt-5">최신곡</h2>
           <hr className='my-2 border-gray-200'/>
           <List />
         </section>

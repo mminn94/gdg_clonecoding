@@ -2,7 +2,7 @@ import React from 'react'
 
 function Aside() {
   return (
-    <aside className="w-60 p-6 bg-gray-50 min-h-screen flex flex-col justify-between">
+    <aside className="w-[230px] p-6 bg-gray-50 min-h-screen flex flex-col justify-between">
       <div>
         <div className="flex items-center mb-6">
           <img src="/logo.png" alt="logo" className="w-20 h-6 mr-2" />
