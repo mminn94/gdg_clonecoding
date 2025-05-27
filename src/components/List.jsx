@@ -20,8 +20,8 @@ function List() {
               alt={song.title}
               className="w-12 h-12 object-cover rounded"/>
             <div className="flex flex-col">
-              <p className="font-bold">{song.title}</p>
-              <p className="text-base text-gray-500">{song.artist}</p>
+              <p className="text-medium font-semibold">{song.title}</p>
+              <p className="text-[14px] text-gray-500">{song.artist}</p>
             </div>
           </div>
           <img src="/icon..png" alt="점 3개" className="w-6 h-6" />
